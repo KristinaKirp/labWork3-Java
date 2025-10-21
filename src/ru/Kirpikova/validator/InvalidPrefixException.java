@@ -1,0 +1,7 @@
+package ru.Kirpikova.validator;
+
+public class InvalidPrefixException extends RuntimeException {
+    public InvalidPrefixException (String message) {
+        super(message);
+    }
+}
